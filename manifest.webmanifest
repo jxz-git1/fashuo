@@ -1,0 +1,24 @@
+{
+  "name": "法硕备考工作台",
+  "short_name": "法硕工作台",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#f5f7fb",
+  "theme_color": "#5b7cfa",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "description": "法硕（非法本）在职备考：课程、真题、计划、复习、PDF 导入",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "今日课表", "short_name": "课表", "url": "./?tab=plan" },
+    { "name": "复习提醒", "short_name": "复习", "url": "./?tab=review" }
+  ]
+}
